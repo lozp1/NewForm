@@ -1,0 +1,86 @@
+@use "base/variables" as v;
+@use "base/mixins" as m;
+
+.body {
+  background-color: linear-gradient(to top, v.$grisClaro 0%, v.$blanco 100%);
+}
+
+.header {
+  background-color: v.$rojoOscuro;
+
+  @include m.tablet {
+    box-shadow: 0.3rem 0.3rem 0.3rem #333;
+    width: 100%;
+    left: 0;
+    top: 0;
+  }
+
+  .contenido-header {
+    padding: 2rem;
+    align-items: center;
+
+    @include m.tablet {
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+
+  h1 {
+    color: v.$blanco;
+    text-align: center;
+
+    @include m.tablet {
+      margin: 0;
+    }
+  }
+  .navegacion-principal {
+    @include m.tablet {
+      display: flex;
+      // gap: 5rem;
+    }
+
+    a {
+      background-color: v.$rojoOscuro;
+      display: block;
+      font-weight: bold;
+      color: v.$blanco;
+      font-size: 2rem;
+      padding: 1.5rem 1rem;
+
+      &:hover {
+        color: v.$grisOscuro;
+      }
+    }
+
+    .navegacion-principal > li {
+      float: left;
+    }
+
+    .navegacion-principal li,
+    ul {
+      position: absolute;
+      min-width: 140px;
+      display: none;
+    }
+
+    .sub-menu {
+      font-size: 1.5rem;
+    }
+  }
+  .navegacion-principal li:hover > ul {
+    display: block;
+  }
+
+  .dark-mode-boton {
+    max-width: 6rem;
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
+
+  ul,
+  li {
+    list-style: none;
+  }
+}

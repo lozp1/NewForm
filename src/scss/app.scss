@@ -1,0 +1,8 @@
+// Forma anterior para llamar documentos al app.scss
+
+// @import "../scss/base/variables";
+// @import "../scss/contenido/contenido";
+
+@use 'base';
+@use 'layout';
+@use 'internas';

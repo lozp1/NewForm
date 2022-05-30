@@ -1,0 +1,63 @@
+@use "base/variables" as v;
+@use "base/mixins" as m;
+
+main {
+  .text-area {
+    resize: none;
+    display: block;
+    height: 12rem;
+    width: 100%;
+    margin-top: 1rem;
+    padding: 0.8rem;
+    border-radius: 1rem;
+    border: v.$negro 0.1rem solid;
+  }
+  h2 {
+    text-align: center;
+    padding: 15px 0 15px 0;
+  }
+}
+
+.table-container {
+  margin: 2rem auto;
+}
+
+.tablas {
+  background-color: v.$blanco;
+  width: 100%;
+  text-align: left;
+  border-collapse: collapse;
+  border: 0.1rem solid v.$negro;
+  border-radius: 1rem;
+}
+
+th,
+td {
+  text-align: center;
+  border: 0.1rem solid v.$negro;
+  padding: 1.5rem;
+}
+
+.sub-titulos {
+  font-size: 2rem;
+  text-align: center;
+  background-color: v.$rojoOscuro;
+  border-bottom: solid 0.5rem v.$negro;
+  color: v.$blanco;
+}
+
+tr:nth-child(even) {
+  background-color: v.$grisClaro;
+}
+
+tr:hover {
+  background-color: v.$rojoClaro;
+  color: v.$blanco;
+}
+
+.text {
+  border: none;
+  padding: 15px 20px;
+  border-radius: 8px;
+  border: transparent;
+}

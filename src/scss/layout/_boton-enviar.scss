@@ -1,0 +1,55 @@
+@use "base/variables" as v;
+@use "base/mixins" as m;
+
+.bt-file input[type="file"] {
+  appearance: none;
+  display: none;
+  visibility: hidden;
+  opacity: 0;
+}
+.bt-file {
+  display: inline-block;
+  position: relative;
+  background-color: v.$rojoClaro;
+  color: v.$blanco;
+  border: 0;
+  padding: 15px 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.15);
+  overflow: hidden;
+  transition: ease-out 120ms background-color;
+}
+
+.bt-file:hover {
+  background-color: v.$rojoOscuro;
+}
+
+.bt-file:focus {
+  background-color: v.$rojoOscuro;
+}
+
+.bt-file > i {
+  margin-right: 15px;
+}
+
+.bt-file label {
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  cursor: pointer;
+}
+
+.bt-file.bordeado {
+  background-color: transparent;
+  border: 2px solid v.$rojoClaro;
+  color: v.$rojoOscuro;
+}
+
+.bt-file.bt-file.bordeado:hover {
+  background-color: v.$rojoClaro;
+  color: v.$blanco;
+}

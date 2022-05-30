@@ -1,0 +1,49 @@
+@use "base/variables" as v;
+@use "base/mixins" as m;
+
+.centrado {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+
+  .contenido-header {
+    justify-content: center;
+  }
+
+  a {
+    color: v.$negro;
+    font-size: 2rem;
+    padding: 1.5rem 1rem;
+
+    &:hover {
+      color: v.$rojoClaro;
+    }
+  }
+
+  .acceder {
+    input[type="text"],
+    input[type="password"] {
+      // outline: none;
+      padding: 20px;
+      display: block;
+      width: 300px;
+      border: 1px solid v.$grisClaro;
+      margin: 20px auto;
+    }
+    .bt-file {
+      width: 300px;
+      margin: 20px auto;
+      cursor: pointer;
+    }
+  }
+
+  .centrado-login {
+    padding: 20px 0;
+    margin-bottom: 10px;
+    justify-content: center;
+  }
+
+  h1 {
+    padding: 25px 0 25px;
+  }
+}

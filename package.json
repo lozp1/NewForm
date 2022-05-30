@@ -1,0 +1,43 @@
+{
+  "name": "implement",
+  "version": "1.0.0",
+  "description": "1. git init\r 2. git add .\r 3. git reset.\r 4. git commit -m \"name-snapshot\"\r 5. git checkout --.\r 6. git log\r 7. git commit --amend\r 8. git checkout -b nombre-rama\r 9. git checkout \"nombre-rama\"\r 10. git branch\r 11. git merge nombre-rama\r 12. git branch -d nombre-rama\r 13. git status\r 14. git commit -am name-snaptshot",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch src/scss:build/css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iFrankGL/Implement.git"
+  },
+  "keywords": [
+    "SASS",
+    "GULP"
+  ],
+  "author": "iPainZ",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iFrankGL/Implement/issues"
+  },
+  "homepage": "https://github.com/iFrankGL/Implement#readme",
+  "dependencies": {
+    "gulp-terser-js": "^5.2.2",
+    "save-dev": "^0.0.1-security",
+    "sweetalert2": "^11.4.17"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.2",
+    "cssnano": "^5.0.16",
+    "gulp": "^4.0.2",
+    "gulp-avif": "^1.0.1",
+    "gulp-cache": "^1.1.3",
+    "gulp-imagemin": "^7.1.0",
+    "gulp-plumber": "^1.2.1",
+    "gulp-postcss": "^9.0.1",
+    "gulp-sass": "^5.1.0",
+    "gulp-sourcemaps": "^3.0.0",
+    "gulp-webp": "^4.0.1",
+    "postcss": "^8.4.5",
+    "sass": "^1.49.9"
+  }
+}

@@ -1,0 +1,95 @@
+@use "base/variables" as v;
+@use "base/mixins" as m;
+
+.dark-mode {
+  .header {
+    background-color: v.$rojoOscuro;
+    box-shadow: 0.3rem 0.3rem 0.3rem #999;
+  }
+
+  h3,
+  h2,
+  h1 {
+    color: v.$blanco;
+  }
+
+  background-color: darken(v.$negro, 10);
+
+  .contenedor {
+    color: v.$blanco;
+    background-color: v.$grisOscuro;
+  }
+
+  th,
+  .text {
+    color: v.$negro;
+  }
+
+  td {
+    color: v.$grisClaro;
+  }
+
+  main {
+    .text-area {
+      background-color: #333;
+      color: v.$grisClaro;
+    }
+
+    .tablas {
+      background-color: #333;
+      color: v.$grisClaro;
+    }
+  }
+  .input-text {
+    background-color: #333;
+    color: v.$grisClaro;
+  }
+
+  .formulario__campo {
+    background-color: #333;
+    color: v.$grisClaro;
+  }
+
+  .sub-titulos {
+    background-color: v.$rojoOscuro;
+    border-bottom: solid 0.5rem v.$grisClaro;
+  }
+
+  tr:nth-child(even) {
+    background-color: v.$negro;
+  }
+
+  tr:hover {
+    background-color: v.$rojoClaro;
+    color: v.$grisClaro;
+  }
+
+  td,
+  th {
+    border: 0.1rem solid rgb(158, 157, 157);
+    color: v.$blanco;
+  }
+
+  .dark-mode-boton,
+  .header_logo {
+    filter: invert(100%); // cambio a color blanco
+  }
+
+  input {
+    background-color: v.$negro;
+  }
+
+  .text {
+    color: v.$blanco;
+  }
+
+  .bt-file.bordeado {
+    background-color: transparent;
+    border: 2px solid v.$rojoClaro;
+    color: v.$rojoOscuro;
+  }
+
+  .bt-file.bt-file.bordeado:hover {
+    color: v.$blanco;
+  }
+}
