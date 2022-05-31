@@ -2,7 +2,8 @@
 @use "base/mixins" as m;
 
 .body {
-  background-color: linear-gradient(to top, v.$grisClaro 0%, v.$blanco 100%);
+  // background-color: linear-gradient(to top, v.$grisClaro 0%, v.$blanco 100%);
+  background-color: linear-gradient(315deg, white 0%, #d7e1ed 74%);
 }
 
 .header {

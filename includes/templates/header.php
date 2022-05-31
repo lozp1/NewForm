@@ -8,6 +8,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
     <link href="../../build/css/app.css" rel="stylesheet" />
     <script src="https://kit.fontawesome.com/6e9377a9ac.js" crossorigin="anonymous"></script>
+    
 </head>
 
 <body class="body">

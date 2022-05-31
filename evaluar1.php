@@ -9,7 +9,18 @@ incluirTemplate('header'); ?>
     </div>
 
     <div class="card2">
+
       <label>Sistema Que Implementar</label>
+      <form class="formulario">
+        <select class="formulario__campo">
+          <option disabled selected>Versión de Sistema</option>
+          <!-- disabled=off option. Selected=default -->
+          <option>Inventario</option>
+          <option>Contabilidad</option>
+          <option>Planilla</option>
+        </select>
+      </form>
+
     </div>
 
     <div class="card3">

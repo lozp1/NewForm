@@ -13,6 +13,8 @@ html {
 body {
   font-family: v.$font-p;
   font-size: 1.6rem;
+  margin: 0;
+  padding: 0;
 
   &.body-fijo {
     overflow: hidden;
