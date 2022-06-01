@@ -28,41 +28,40 @@ incluirTemplate('headerV');
 
     </div>
 
-    <div class="redes-sociales">
-
+    <div class="wrapper">
         <div class="icon facebook">
             <div class="tooltip">
                 Facebook
             </div>
-            <a class="social" href="https://www.facebook.com/solutionstechgt"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="https://www.facebook.com/solutionstechgt"><i class="fa-brands fa-facebook-f"></i></a>
         </div>
 
         <div class="icon whatsapp">
             <div class="tooltip">
                 Whatsapp
             </div>
-            <a class="social" href="#"><i class="fa-brands fa-whatsapp"></i></a>
+            <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
         </div>
 
         <div class="icon youtube">
             <div class="tooltip">
                 Youtube
             </div>
-            <a class="social href=" href="https://www.youtube.com/channel/UC2eHENnRThn5EByEBMppB1g""><i class=" fa-brands fa-youtube"></i></a>
+            <a href="https://www.youtube.com/channel/UC2eHENnRThn5EByEBMppB1g""><i class=" fa-brands fa-youtube"></i></a>
         </div>
 
         <div class="icon github">
             <div class="tooltip">
                 GitHub
             </div>
-            <a class="social" href="https://github.com/lozp1/NewForm"><i class="fa-brands fa-github"></i></a>
+            <a href="https://github.com/lozp1/NewForm"><i class="fa-brands fa-github"></i></a>
         </div>
 
         <div class="icon linkedin">
             <div class="tooltip">
                 Linkedin
             </div>
-            <a class="social" href="https://gt.linkedin.com/company/b-smooth-solutions?original_referer=https%3A%2F%2Fwww.google.com%2F"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="https://gt.linkedin.com/company/b-smooth-solutions?original_referer=https%3A%2F%2Fwww.google.com%2F"><i class="fa-brands fa-linkedin-in"></i></a>
         </div>
     </div>
 
