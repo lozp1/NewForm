@@ -58,17 +58,29 @@ VALUES ('$email', '$password') ";
         </div class="alerta error">
     <?php endforeach; ?>
 
-    <h1>Registrarse</h1>
-    <span>ó <a href="login.php">Ingresar</a></span>
+    <head>
+        <title>Registrarse</title>
+    </head>
 
-    <div class="acceder">
-        <form action="signup.php" method="POST">
-            <input class="text" placeholder="Ingresa tu correo" type="text" name="email" id="email">
-            <input class="text" placeholder="Ingresa tu contraseña" type="password" name="password" id="password">
-            <input class="text" placeholder="Confirma tu contraseña" type="password" name="confirm_password" id="confirm_password">
-            <input class="bt-file bordeado max" type="submit" value="Registrarse">
-        </form>
-    </div>
+    <main class="login-design">
+
+        <div class="picture-login">
+            <img src="../../src/img/sign_up.svg" alt="Imagen de inicio de sesión">
+        </div>
+
+        <div class="login login-flex">
+            <h1>Registrarse</h1>
+            <span>ó <a href="login.php">Iniciar Sesión</a></span>
+
+            <form action="signup.php" method="POST">
+                <input class="text" placeholder="Correo electrónico" type="text" name="email" id="email">
+                <input class="text" placeholder="Contraseña" type="password" name="password" id="password">
+                <input class="text" placeholder="Confirmar contraseña" type="password" name="confirm_password" id="confirm_password">
+                <input class="bt-file bordeado max" type="submit" value="Registrarte">
+            </form>
+        </div>
+
+    </main>
 
     <script src="../../build/js/app.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>

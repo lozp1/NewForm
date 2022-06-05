@@ -1,10 +1,6 @@
 @use "base/variables" as v;
 @use "base/mixins" as m;
 
-.body {
-  background-color: v.$blanco;
-}
-
 .header {
   background-color: v.$rojoOscuro;
 

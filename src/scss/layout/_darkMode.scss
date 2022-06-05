@@ -92,4 +92,16 @@
   .bt-file.bt-file.bordeado:hover {
     color: v.$blanco;
   }
+
+  span {
+    color: v.$blanco;
+    a {
+      color: v.$blanco;
+
+      &:hover {
+        color: v.$rojoOscuro;
+        font-weight: bold;
+      }
+    }
+  }
 }

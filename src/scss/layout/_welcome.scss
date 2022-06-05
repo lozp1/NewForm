@@ -1,0 +1,36 @@
+@use "base/variables" as v;
+@use "base/mixins" as m;
+
+.curvo {
+  background-color: v.$rojoClaro;
+  color: #fff;
+  text-align: center;
+
+  h1 {
+    font-size: 6rem;
+    text-shadow: 0 10px 10px rgba(0, 0, 0, 0.5); // sombreado del circulo
+  }
+
+  a {
+    color: v.$negro;
+    font-size: 2rem;
+    padding: 2rem 1rem;
+
+    &:hover {
+      color: v.$blanco;
+      font-weight: bold;
+    }
+  }
+
+  span {
+    color: v.$negro;
+  }
+}
+
+.top {
+  background-color: v.$rojoOscuro;
+}
+
+.wrapper-centrado {
+  background-color: v.$rojoOscuro;
+}

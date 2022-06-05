@@ -21,7 +21,7 @@
   height: 42px; // tamaño de circulo
   width: 42px;
   display: block;
-  background-color:gainsboro;
+  background-color: v.$blanco;
   text-align: center;
   border-radius: 50%;
   z-index: 2;
@@ -77,7 +77,7 @@
 .wrapper .whatsapp:hover a,
 .wrapper .whatsapp:hover .tooltip,
 .wrapper .whatsapp:hover .tooltip::before {
-  background: v.$esmeraldaClaro;
+  background: v.$esmeraldaOscuro;
 }
 
 .wrapper .facebook:hover a,
@@ -101,5 +101,5 @@
 .wrapper .linkedin:hover a,
 .wrapper .linkedin:hover .tooltip,
 .wrapper .linkedin:hover .tooltip::before {
-  background: #4391f8;
+  background: #3589f6;
 }
