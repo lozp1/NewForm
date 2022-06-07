@@ -16,7 +16,7 @@
   transition: all 0.4s cubic-bezier(0.68, 0.55, 0.265, 1.55);
 }
 
-.wrapper .icon a {
+.wrapper .icon .icono {
   position: relative;
   height: 42px; // tamaño de circulo
   width: 42px;
@@ -28,12 +28,12 @@
   box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2); // sombreado del circulo
 }
 
-.wrapper .icon a i {
+.wrapper .icon .icono i {
   font-size: 15px;
   line-height: 15px;
 }
 
-.wrapper .icon:hover a {
+.wrapper .icon:hover .icono {
   color: v.$blanco;
 }
 
@@ -69,36 +69,36 @@
   transition: all 0.4s cubic-bezier(0.68, 0.55, 0.265, 1.55);
 }
 
-.wrapper .icon:hover a,
+.wrapper .icon:hover .icono,
 .wrapper .icon:hover .tooltip {
   text-shadow: 0px -1px 0px rgba (0, 0, 0, 0.4);
 }
 
-.wrapper .whatsapp:hover a,
+.wrapper .whatsapp:hover .icono,
 .wrapper .whatsapp:hover .tooltip,
 .wrapper .whatsapp:hover .tooltip::before {
   background: v.$esmeraldaOscuro;
 }
 
-.wrapper .facebook:hover a,
+.wrapper .facebook:hover .icono,
 .wrapper .facebook:hover .tooltip,
 .wrapper .facebook:hover .tooltip::before {
   background: v.$azul;
 }
 
-.wrapper .youtube:hover a,
+.wrapper .youtube:hover .icono,
 .wrapper .youtube:hover .tooltip,
 .wrapper .youtube:hover .tooltip::before {
   background: v.$rojoClaro;
 }
 
-.wrapper .github:hover a,
+.wrapper .github:hover .icono,
 .wrapper .github:hover .tooltip,
 .wrapper .github:hover .tooltip::before {
   background: v.$grisOscuro;
 }
 
-.wrapper .linkedin:hover a,
+.wrapper .linkedin:hover .icono,
 .wrapper .linkedin:hover .tooltip,
 .wrapper .linkedin:hover .tooltip::before {
   background: #3589f6;

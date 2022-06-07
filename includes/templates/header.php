@@ -10,7 +10,7 @@
     <script src="https://kit.fontawesome.com/6e9377a9ac.js" crossorigin="anonymous"></script>
 </head>
 
-<body class="body">
+<body>
     <header class="header">
         <div class="contenido-header">
             <h1>Evaluar Hardware</h1>

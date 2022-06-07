@@ -93,15 +93,15 @@
     color: v.$blanco;
   }
 
+  a {
+    color: v.$blanco;
+
+    &:hover {
+      color: v.$rojoClaro;
+      font-weight: bold;
+    }
+  }
   span {
     color: v.$blanco;
-    a {
-      color: v.$blanco;
-
-      &:hover {
-        color: v.$rojoOscuro;
-        font-weight: bold;
-      }
-    }
   }
 }
